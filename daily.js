@@ -27,20 +27,15 @@ function getSecondaryDataByName(jsonData, targetName) {
   );
 }
 
-const requiredStatues = [
-  "Issued",
-  "In Review",
-  "On Hold",
-  "Pending Approval",
-  "Submitted",
-];
-//aprroved , in review , issued , on hold , stop work order , submitted
+const requiredStatues = ["Issued"];
+
+//for charleston county
 
 const requiredSecondaryData = [
-  "Residential - New One- and Two-Family Dwelling",
-  "Commercial New Multi Family",
-  "Commercial New Building or Addition",
-  "Residential Addition",
+  "Permit - Building, Residential New",
+  "Permit - Building, Residential Addition",
+  "Permit - Building, Multi-Family New",
+  "Permit - Building, Commercial New",
 ];
 
 function getDateDaysAgo(offset = 1) {
@@ -518,7 +513,8 @@ async function getResultsforStatues(second) {
 
     console.log("Getting for status :", statusObj.Name);
 
-    payload.PermitCriteria.ApplyDateFrom = getDateDaysAgo(1); // 2 days ago
+    payload.PermitCriteria.ApplyDateFrom = getDateDaysAgo(16); // 2 days ago
+    console.log(getDateDaysAgo(15));
 
     await getAllResults(payload, statusObj.Name, "daily_permits.json"); // creates file
   }
@@ -534,10 +530,10 @@ async function getResultsforStatues(second) {
 
   await cleanJsonFiles("daily_permits", "cleaned_daily_permits");
   //push to db
-  await uploadFolder("cleaned_daily_permits");
+  // await uploadFolder("cleaned_daily_permits");
 
   // uncomment later
-  await cleanupFolders(["cleaned_daily_permits", "daily_permits"]);
+  //  await cleanupFolders(["cleaned_daily_permits", "daily_permits"]);
 }
 
 // getResultsforStatues();

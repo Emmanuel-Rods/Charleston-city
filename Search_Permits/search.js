@@ -4,7 +4,7 @@ const appendData = require("./appender.js");
 
 async function fetchEnergovData(payload) {
   const url =
-    "https://wakecountync-energovpub.tylerhost.net/apps/selfservice/api/energov/search/search";
+    "https://egcss.charleston-sc.gov/EnerGov_Prod/selfservice/api/energov/search/search";
 
   const headers = {
     accept: "application/json, text/plain, */*",
@@ -14,7 +14,7 @@ async function fetchEnergovData(payload) {
     origin: "https://wakecountync-energovpub.tylerhost.net",
     pragma: "no-cache",
     priority: "u=1, i",
-    referer: "https://wakecountync-energovpub.tylerhost.net/apps/SelfService",
+    referer: "https://egcss.charleston-sc.gov/EnerGov_Prod/SelfService",
     "sec-ch-ua":
       '"Chromium";v="148", "Google Chrome";v="148", "Not/A)Brand";v="99"',
     "sec-ch-ua-mobile": "?0",

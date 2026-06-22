@@ -1,104 +1,135 @@
 {
     "Result": [
         {
-            "PermitStatusId": "0c749683-8166-43b8-9aa3-bf220435149f",
-            "Name": "Application Incomplete",
-            "Description": "Status is used for when a application is incomplete and waiting on customer action.  This will help the customer on the portal know the status of their permit."
+            "PermitStatusId": "457e9412-ae02-4403-9178-a33267e9491b",
+            "Name": " ",
+            "Description": "                 "
         },
         {
-            "PermitStatusId": "92898509-31f9-4ffb-9a40-b11b9b49c5b6",
+            "PermitStatusId": "f3567360-b07f-429e-889c-5b68dbb4e8f7",
+            "Name": "Applied",
+            "Description": "Permit applied for - plan review complete permit not paid for at this time"
+        },
+        {
+            "PermitStatusId": "b58cd03d-5d3f-4491-b450-6f900599e1c6",
+            "Name": "Applied Online",
+            "Description": "Application created from web portal"
+        },
+        {
+            "PermitStatusId": "dc12cf48-35c6-43ae-8c68-7d1d5cc480d5",
             "Name": "Approved",
-            "Description": ""
+            "Description": "Approved"
         },
         {
-            "PermitStatusId": "a99088bd-b9ae-4f5e-b7cd-995dcfb12ac3",
-            "Name": "Complete",
-            "Description": "Complete.  This status means the permit work is completed, and approved."
+            "PermitStatusId": "03edc1a9-6c09-4622-8a1e-a0a25e3d3391",
+            "Name": "Canceled (By Applicant)",
+            "Description": "Permit canceled by applicant - project stopped "
         },
         {
-            "PermitStatusId": "fb9d361e-2484-4a59-a131-07547fcb44f0",
+            "PermitStatusId": "d27133e5-b3e1-40a0-a005-dd6d058fbc78",
+            "Name": "Completed",
+            "Description": "Permit Completed "
+        },
+        {
+            "PermitStatusId": "33064874-2223-43bc-a6c0-34a66b7bca73",
             "Name": "Denied",
-            "Description": "Status used if the application has been denied and will not be issued"
+            "Description": "Denied"
         },
         {
-            "PermitStatusId": "c6ade350-a68e-43a7-a6c5-124989409564",
-            "Name": "Disapproved",
-            "Description": ""
-        },
-        {
-            "PermitStatusId": "486d9638-0665-4e42-80d7-070607fb046f",
+            "PermitStatusId": "499c11c5-9b56-4b87-a8fc-81ce9c2dc375",
             "Name": "Expired",
-            "Description": "Expired.  This status is used when a permit has expired and some action is needed.  Our IAA will auto update expired permits this status.  This status DOESN'T prevent anything, a hold would be needed to do this, which our IAA will add."
+            "Description": "Expired"
         },
         {
-            "PermitStatusId": "dfc93764-3615-43db-95f6-733d56ea62b6",
-            "Name": "In Review",
-            "Description": "In Review.  This status is used when the permit is in plan review and not issued yet."
+            "PermitStatusId": "c253a1fb-9f23-4cb3-8226-df1ddf269c51",
+            "Name": "Failed",
+            "Description": "Failed"
         },
         {
-            "PermitStatusId": "1ef50016-e14f-4388-8d3a-0e308004a56e",
+            "PermitStatusId": "8f2d8065-ee39-42d2-97b7-68feaec0947d",
+            "Name": "Fees Paid",
+            "Description": "Fees Paid"
+        },
+        {
+            "PermitStatusId": "a8842956-76a6-49d6-ad1b-4c6a4cd837b2",
             "Name": "Inactive",
-            "Description": "This status is used when a application is waiting on customer action but longer than 6 months."
+            "Description": "Inactive"
         },
         {
-            "PermitStatusId": "f8b6324d-f3b0-4efc-be19-e171ae0410d4",
+            "PermitStatusId": "19eb8b39-3dba-4b21-8daf-d3ed310e19d9",
+            "Name": "Invoiced",
+            "Description": "Invoiced"
+        },
+        {
+            "PermitStatusId": "e87be715-cd0f-4ab0-a659-b1d9fa353d6e",
             "Name": "Issued",
-            "Description": "Issued.  This status means the permit work is in progress."
+            "Description": "Permit issued - permit paid for, placard and necessary documentation given to applicant"
         },
         {
-            "PermitStatusId": "51dcbd2a-68cc-45f0-aced-217b96b80e47",
-            "Name": "Non-Compliant ",
-            "Description": "A permit has been issued, but conditions have changed so that the project no longer conforms to the rules, requirements or regulations under which the permit was issued."
+            "PermitStatusId": "02a076d4-43cf-459f-a4fc-b2c88a9c6bc7",
+            "Name": "Needs Correction",
+            "Description": "Additional information from the applicant example new plan sets documentation"
         },
         {
-            "PermitStatusId": "bd86d592-573d-4924-93a1-22cd7d8b1940",
-            "Name": "On Hold",
-            "Description": "On Hold.  This status is used if the permit work is on hold for some reason other than Stop Work Order which has its own status."
+            "PermitStatusId": "dfff524e-db1a-442c-b469-c2efd60e0c6e",
+            "Name": "Needs Review",
+            "Description": "Needs Review"
         },
         {
-            "PermitStatusId": "d4938ce3-a7f1-47da-8f78-525dc86e5f07",
-            "Name": "On Hold - Customer Action Required",
-            "Description": "On Hold, need customer action to remove hold"
+            "PermitStatusId": "7c722bbd-0f16-4b25-9623-7837c02d5182",
+            "Name": "Payment Pending",
+            "Description": "Payment Pending"
         },
         {
-            "PermitStatusId": "bb697bb7-7638-4b17-89a9-e870e89c8253",
-            "Name": "Pending Approval",
-            "Description": "Pending other application approvals"
+            "PermitStatusId": "f5dc3d3d-2207-475a-bcee-55cad7ff1ce8",
+            "Name": "Pending Pre-Inspections",
+            "Description": "To allow for scheduling of pre-permit issuance inspections conducted by Engineering "
         },
         {
-            "PermitStatusId": "da689121-4eea-4d24-a155-3b13ebfc6b62",
-            "Name": "Revoked",
-            "Description": "Permanently removing the authority to continue under the conditions specific to the permit issued."
+            "PermitStatusId": "f23a6327-8d31-428b-93e3-153df16be4ac",
+            "Name": "Released for Issuance",
+            "Description": "Released for Issuance"
         },
         {
-            "PermitStatusId": "de2833ae-09cf-418b-abad-76db8f207e6a",
+            "PermitStatusId": "e3fdfd00-3c89-74f5-a1b9-1055d62fe3fc",
+            "Name": "SDE - Completed",
+            "Description": "NFIP SDE Permit - Counted towards SD/SI"
+        },
+        {
+            "PermitStatusId": "e5fe16dc-c0c3-8bc2-aded-e6810e3b099b",
+            "Name": "SDE - Resolved",
+            "Description": "NFIP resolved SDE.  Not counted toward SD/SI"
+        },
+        {
+            "PermitStatusId": "0f410a5f-0a37-4efd-abe0-a8767ee0cb75",
             "Name": "Stop Work Order",
-            "Description": "Stop Work Order.  This status is used to identify a permit that is currently stopped due to a stop work order.  Adding the stop work order hold to a permit, will automatically update the permit status to \"Stop Work Order\""
+            "Description": "Stop Work Order Issued on Permit/Project"
         },
         {
-            "PermitStatusId": "85321406-0f14-49df-b0c1-f330822171fb",
-            "Name": "Submitted",
-            "Description": "Submitted. This status is used when a permit has been submitted (NOT online), but a plan reviewer hasn't begun the review yet."
+            "PermitStatusId": "6c917fa7-5739-41f9-a9b5-85ce033ce02d",
+            "Name": "Under Review",
+            "Description": "Under Review"
         },
         {
-            "PermitStatusId": "3a7b84f0-4538-4a81-934f-d0ba3320af10",
-            "Name": "Submitted - Online",
-            "Description": "Submitted, Online.  This status is used as a default for online submissions that haven't had their review started yet."
+            "PermitStatusId": "0d198f79-8b8a-4711-abc6-ac82d725898f",
+            "Name": "Under Review (EReviews)",
+            "Description": "Under Review (EReviews)"
         },
         {
-            "PermitStatusId": "40b8ee3a-1d7f-469d-a325-b377bd971e61",
-            "Name": "Under Violation",
-            "Description": ""
+            "PermitStatusId": "a55783f8-7f7b-4faf-9713-f5882c59365a",
+            "Name": "Void (By City)",
+            "Description": "Permit voided by City - project stopped "
         },
         {
-            "PermitStatusId": "b2cd9836-2368-412d-b584-40dfd4fe28c0",
-            "Name": "Void",
-            "Description": "Void.  This status should be used if the permit is no longer valid.  This status should be used instead of deleting the permit."
-        },
-        {
-            "PermitStatusId": "3e571b66-6d05-4300-b68e-66f57e8efcde",
-            "Name": "Withdrawn",
-            "Description": ""
+            "PermitStatusId": "c4b2950b-a148-4986-99d7-01a6ddf3b75e",
+            "Name": "Warranty Period",
+            "Description": "Warranty Period"
         }
-    ]
+    ],
+    "Success": true,
+    "ErrorMessage": "",
+    "ValidationErrorMessage": "",
+    "ConcurrencyErrorMessage": "",
+    "StatusCode": 200,
+    "BrokenRules": []
 }

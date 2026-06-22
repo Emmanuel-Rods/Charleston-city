@@ -7,7 +7,7 @@
  */
 async function get_inpection(entityId, options = {}) {
   const url =
-    "https://wakecountync-energovpub.tylerhost.net/apps/selfservice/api/energov/entity/inspections/search/search";
+    "https://egcss.charleston-sc.gov/EnerGov_Prod/selfservice/api/energov/entity/inspections/search/search";
 
   const headers = {
     accept: "application/json, text/plain, */*",
@@ -17,7 +17,7 @@ async function get_inpection(entityId, options = {}) {
     origin: "https://wakecountync-energovpub.tylerhost.net",
     pragma: "no-cache",
     priority: "u=1, i",
-    referer: "https://wakecountync-energovpub.tylerhost.net/apps/SelfService",
+    referer: "https://egcss.charleston-sc.gov/EnerGov_Prod/SelfService",
     "sec-ch-ua":
       '"Chromium";v="148", "Google Chrome";v="148", "Not/A)Brand";v="99"',
     "sec-ch-ua-mobile": "?0",
